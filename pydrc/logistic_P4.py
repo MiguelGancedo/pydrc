@@ -1,3 +1,4 @@
+import numpy as np
 from .dose_response import DoseResponse
 
 class LogisticP4Model(DoseResponse):
