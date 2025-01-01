@@ -12,6 +12,7 @@ from .two_phase import TwoPhaseModel
 from .weibull_P2 import WeibullP2Model
 from .weibull_P3 import WeibullP3Model
 from .weibull_P4 import WeibullP4Model
+import numpy as np
 
 __all__ = ['DoseResponse', 'ARModel', 'ExponentialDecayModel', 'GompertzModel', 'HillEquationModel', 'LogisticP2Model', 'LogisticP3Model', 'LogisticP4Model', 'MichaelisMentenModel', 'NecModel', 'TwoPhaseModel', 'WeibullP2Model', 'WeibullP3Model', 'WeibullP4Model']
 
